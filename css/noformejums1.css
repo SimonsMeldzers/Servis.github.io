@@ -71,4 +71,18 @@ p{
 	background-color:red;
 }
 
+.gallery {
+	margin : 10px 50 px;
+}
 
+.gallery img {
+	width: 220px;
+	height: 150px;
+	padding: 05px;
+	transition: 0.2s;
+
+
+}
+.gallery img:hover {
+	transform: scale(1.1);
+}
