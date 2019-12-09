@@ -12,7 +12,7 @@ p{
 	background-color: #FFFFF0;
 	text-align: center;
 	width: 85%;
-	height: 440px;
+	height: auto;
 	margin: auto;
 	margin-top:50px;
 	font-size:120%;
@@ -28,7 +28,9 @@ p{
 }
 
 .mape {
-	float: left;
+	width:100%;
+	overflow:hidden;
+	
 }
 
 .leftaside{
