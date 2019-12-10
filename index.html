@@ -18,28 +18,18 @@
 <body>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <div class="navbar-right">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="navbar-header">
       <a class="navbar-brand" href="#">Servis</a>
     </div>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav  navbar-left">
-        <li class="active"><a href="index.html">Sākums</a></li>
-        <button href="#middle" type="button" class="btn btn-primary">Atrašanās vieta</button>
- 		<button type="button" class="btn btn-primary disabled">Autonoma (Drīz)</button>
- 		<button href="#middle" type="button" class="btn btn-primary">Darba laiks</button>
- 		<button href="#middle" type="button" class="btn btn-primary">Atrašanās vieta</button>
- 		<li><a href="atteli.html" type="button" class="btn btn-primary">Galerija</a></li>
- 		<li><a href="atteli.html" type="button" class="btn btn-primary">Video galerija</a></li>
-      </ul>
-
-    </div>
-  </div></nav>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Sākums</a></li>
+      <li><a href="atteli.html">Galerija</a></li>
+      <li><a href="#vieta">Atrašanās vieta</a></li>
+	  <li><a href="#noma">Auto noma</a></li>
+      <li><a href="#laiks">Darba laiks</a></li>
+    </ul>
+  </div>
+</nav>
 	<section class="container-fluid">
 		<section class="row">
 			
@@ -51,7 +41,7 @@
 	<h1>
 		Atrašanās vieta
 	</h1>
-	<div class='main-inside'>
+	<div class='main-inside' id="vieta">
 		<iframe class='mape' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29309.872057517445!2d24.147255224721135!3d56.90648531570964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31be9b9dc253d76c!2sAMSEK%20Autoserviss!5e0!3m2!1slv!2slv!4v1575647062468!5m2!1slv!2slv" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 		
 		
@@ -66,7 +56,7 @@
 		
 	</div>
 </div>
-<div class='main'>
+<div class='main'id="noma">
 
 	<h1>
 		Auto Noma
@@ -88,7 +78,7 @@
 		Darba laiks
 	</h1>
 	<div class='main-inside'>
-		<table class="table">
+		<table class="table" id ="laiks">
 		  <thead>
 		    <tr>
 		      <th scope="col">#</th>
