@@ -24,10 +24,13 @@ p{
 .main-inside {
 	margin-left:20px;
 	margin-right:20px;
-	margin-bottom:100px
+	margin-bottom: 30px;
 
 }
 
+.main-inside img{
+	padding:3px;
+}
 .mape {
 	width:100%;
 	overflow:hidden;
@@ -89,3 +92,53 @@ p{
 .gallery img:hover {
 	transform: scale(1.1);
 }
+
+.bildesNoma {
+	width:40px;
+	height: 20px;	
+}
+
+.prece  {
+	float:left;
+
+}
+
+.mainNoma {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #4d4d4d;
+	background-color: #FFFFF0;
+	text-align: center;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top:50px;
+	font-size:120%;
+	margin-bottom:70px;
+
+}
+
+.prece img{
+	float:left;
+}
+
+.jumbotron {
+	
+	height : auto;
+}
+
+.col-sm-5 {
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+
+
+}
+.col-sm-7 {
+	margin-top: 160px;
+	margin-bottom: 100px;
+	
+
+}
+
+
